@@ -22,5 +22,5 @@ function doWhileLoop(array){
   } while (array.length > 0 && maybeTrue());
 }
 function maybeTrue(){
-  return Math.Random() >= 0.5;
+  return Math.random() >= 0.5;
 }
