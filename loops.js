@@ -17,9 +17,9 @@ function whileLoop(n){
 function doWhileLoop(array){
   var i = 1
   do {
-    delete array[array.length()-i];
+    delete array[array.length - i];
     i++;  
-  } while (array.length() > 0 && maybeTrue());
+  } while (array.length > 0 && maybeTrue());
 }
 function maybeTrue(){
   return Math.Random() >= 0.5
