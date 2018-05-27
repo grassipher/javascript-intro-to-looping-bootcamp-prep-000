@@ -15,10 +15,8 @@ function whileLoop(n){
   return "done";
 }
 function doWhileLoop(array){
-  var i = 1;
   do {
-    delete array[array.length - i];
-    i++;  
+    array.pop(); 
   } while (array.length > 0 && maybeTrue());
 }
 function maybeTrue(){
